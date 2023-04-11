@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
+
+
+/* MyHeader */
+
+
+
+body {
+  background-color: rgb(216, 249, 238);
+  padding-top: 15px;
+
+
+}
+
+/* Home */
+
+.Home {
+  padding: 20px;
+  
+
+}
+
+.Home .Home_header {
+  font-family: 'Yeon Sung';
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(114, 114, 114); 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+
+  
+  border: solid 10px;
+  border-radius: 20px;
+  border-color: rgb(120, 163, 135);
+  background-color: rgb(175, 214, 175);
+
+}
+
+
+.btn{
+  font-family: 'Yeon Sung';
+  font-size: 50px;
+  color: rgb(114, 114, 114);
+
+  border: solid 5px; 
+  border-radius: 10px;
+  border-color: rgb(203, 203, 203);
+  background-color: rgb(236, 236, 236);
+
+  display: flex;
+  justify-content: center;
+
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 30px;
+  
+}
+
+
+
+/*Memo*/
+
+.Memo .Memo_header {
+  font-family: 'Yeon Sung';
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(114, 114, 114); 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+
+  
+  border: solid 10px;
+  border-radius: 20px;
+  border-color: rgb(120, 163, 135);
+  background-color: rgb(175, 214, 175);
+
+}
+
+
+/* MemoTemplate */
+.MemoTemplate {
+/* border: 5px solid rgb(203, 203, 203);*/
+  text-align: center;
+  padding: 20px;
+}
+.MemoTemplate input, textarea {
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+
+  border: 5px solid rgb(203, 203, 203);
+  border-radius: 10px;
+  background-color: rgb(251, 244, 234);
+
+  font-family: 'Yeon Sung';
+  font-size: 30px;
+
+}
+
+.MemoTemplate input {
+  height: 50px;
+}
+
+.MemoTemplate textarea {
+  height: 180px;
+}
+
+.MemoTemplate button {
+  border: 5px solid rgb(141, 142, 194);
+  border-radius: 10px;
+  background-color: rgb(192, 197, 255);
+
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Yeon Sung';
+  font-size: 30px;
+  color: white;
+}
+
+/*MemoList*/
+.MemoList {
+  border: 5px solid rgb(203, 203, 203);
+  border-radius: 10px;
+  
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(233, 234, 233);
+
+  font-family: 'Yeon Sung'; 
+  font-size: 20px;
+  text-align: start;
+}
+
+.MemoList H4 {
+  font-weight: normal;
+}
+
+/* MemoItem */
+
+.MemoItem {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color:  rgb(251, 244, 234);
+  border: solid 3px rgb(203, 203, 203);
+  border-radius: 10px;
+}
+
+.MemoItem .memo_btn{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+
+.MemoItem .title {
+  border-bottom: 1px solid rgb(203, 203, 203);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(52, 52, 143);
+}
+
+.MemoItem .date {
+  color: gray;
+
+}
+
+.MemoItem .content{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.MemoItem .content textarea {
+  background-color: rgb(255, 255, 255);
+}
+
+.MemoItem button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3px;
+
+  border: 5px solid rgb(141, 142, 194);
+  border-radius: 10px;
+  background-color: rgb(192, 197, 255);
+
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Yeon Sung';
+  font-size: 30px;
+  color: white;
+}
+
+
+
+
+
+/* TodoList */
+
+/* TodoEditor */
+
+.TodoList .Todo_header {
+  font-family: 'Yeon Sung';
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(114, 114, 114); 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+
+  
+  border: solid 10px;
+  border-radius: 20px;
+  border-color: rgb(120, 163, 135);
+  background-color: rgb(175, 214, 175);
+
+}
+
+
+.TodoEditor {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  padding: 20px;
+  
+  
+}
+
+.TodoEditor input {
+  height: 50px;
+
+
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+
+  border: 5px solid rgb(203, 203, 203);
+  border-radius: 10px;
+  background-color: rgb(251, 244, 234);
+
+  font-family: 'Yeon Sung';
+  font-size: 30px;
+
+}
+
+.TodoEditor button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3px;
+
+  border: 5px solid rgb(141, 142, 194);
+  border-radius: 10px;
+  background-color: rgb(192, 197, 255);
+
+  
+  width: 100px;
+  height: 75px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Yeon Sung';
+  font-size: 30px;
+  color: white;
+}
+
+/*TodoItemList*/
+.TodoItemList{
+  border: 5px solid rgb(203, 203, 203);
+  border-radius: 10px;
+  
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(233, 234, 233);
+
+  font-family: 'Yeon Sung'; 
+  font-size: 20px;
+  text-align: start;
+
+  font-family: 'Yeon Sung';
+}
+
+
+/* TodoHead */
+.TodoHead {
+  padding: 20px;
+  margin-top: 20px;
+  
+  font-size: 20px;
+  text-align: start;
+
+  font-family: 'Yeon Sung';
+}
+
+
+/* TodoItem */
+.TodoItem {
+
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color:  rgb(251, 244, 234);
+  border: solid 3px rgb(203, 203, 203);
+  border-radius: 10px;
+}
+
+
+
+.TodoItem button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3px;
+
+  border: 5px solid rgb(141, 142, 194);
+  border-radius: 10px;
+  background-color: rgb(192, 197, 255);
+
+  
+  width: 100px;
+  height: 75px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Yeon Sung';
+  font-size: 45px;
+  color: white;
+}
+
+.TodoItem .todo_btn {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.TodoItem .text Input {
+  background-color: rgb(255, 255, 255);
+  
+  padding: 20px;
+  border: solid 3px rgb(203, 203, 203);
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Yeon Sung';
+
+  
+  
+}
+
+.TodoItem .text {
+  font-size: 30px;
+  margin-top: 8px;
+
+  
+}
+
+.TodoItem .checkbox{
+  display: flex;
+  float: left;
+  accent-color: darkred;
+  cursor: pointer;
+
+  margin-top: 16px;
+  margin-right: 15px;
+  
+  width: 30px;
+  height: 30px;
+
+}
+
+
+/* HomeButton */
+
+.HomeButton{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.HomeButton .home_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-right: 10px;
+
+  border: 5px solid rgb(248, 183, 201);
+  border-radius: 100px;
+  background-color: rgb(255, 233, 125);
+
+  
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Yeon Sung';
+  font-size: 45px;
+  color: white;
+}
+
+.HomeButton svg {
+  color: rgb(100, 52, 16);
+}
+
+/* font-family: 'Yeon Sung'; */
